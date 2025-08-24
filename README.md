@@ -1,6 +1,6 @@
 # KaroStartup Project 2 – Automated Analysis
 
-This repo contains a single-file solution **`autolysis.py`** that analyzes any CSV, generates 1–3 PNG charts, and writes a narrative **`README.md`** (story format) using **GPT-4o-Mini** via an OpenAI-compatible API.
+This repo contains a single-file solution **`autolysis.py`** that analyzes any CSV, generates 1–3 PNG charts, and writes a narrative **`README.md`** (story format) via an OpenAI-compatible API.
 
 ## Quick Start
 
@@ -41,7 +41,6 @@ LICENSE
 > ```
 
 ## Notes
-- Model: `gpt-4o-mini` (as required)
 - Token env var: `AIPROXY_TOKEN`
 - Dependencies are defined inline for **uv** to resolve automatically.
 - If the LLM is unavailable or token missing, a deterministic README is created.
